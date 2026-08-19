@@ -1,0 +1,86 @@
+#title {
+    font-size: 5em;
+    font:100px fancy;
+    font-weight: 1000;
+    color: rgb(0, 0, 200);
+    text-align: center;
+    margin: 25px 0;
+}
+#content {
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+    margin: 10px 20px;
+}
+#footer {
+    font-size: 0.8em;
+    text-align: center;
+    margin: 20px 0;
+    color: gray;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+#loginButton {
+    position: absolute;
+    top: 250px;
+    left: 44.2%;
+    font-size: 1em;
+    padding: 20px 20px;
+    margin: 10px auto;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    width: 160px; 
+    background-color: rgb(0, 0, 200);
+}
+#loginButton:hover, #createAccountButton:hover, #settingsButton:hover {
+    background-color: rgb(0, 0, 150);
+    scale: 1.05;
+}
+#loginButton:active, #createAccountButton:active, #settingsButton:active {
+    background-color: rgb(0, 0, 100);
+    scale: 0.95;
+}
+#createAccountButton {
+    position: absolute;
+    top: 340px;
+    left: 44.2%;
+    font-size: 1em;
+    padding: 20px 20px;
+    margin: 10px auto;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    width: 160px;
+    background-color: rgb(0, 0, 200);
+}
+#createAccountButton:hover {
+    background-color: rgb(0, 0, 150);
+    scale: 1.05;
+}
+#createAccountButton:active {
+    background-color: rgb(0, 0, 100);
+    scale: 0.95;
+}
+#settingsButton {
+    position: absolute;
+    top: 430px;
+    left: 44.2%;
+    font-size: 1em;
+    padding: 20px 20px;
+    margin: 10px auto;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    width: 160px;
+    background-color: rgb(0, 0, 200);
+}
+#settingsButton:hover {
+    background-color: rgb(0, 0, 150);
+    scale: 1.05;
+}
+#settingsButton:active {
+    background-color: rgb(0, 0, 100);
+    scale: 0.95;
+}

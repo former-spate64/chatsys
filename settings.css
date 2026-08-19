@@ -1,0 +1,15 @@
+#settingsContent {
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+    margin: 10px 20px;
+}
+#footer {
+    font-size: 0.8em;
+    text-align: center;
+    margin: 20px 0;
+    color: gray;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
