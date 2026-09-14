@@ -1,3 +1,8 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 #title {
     font-size: 5em;
     font:100px fancy;

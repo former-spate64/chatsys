@@ -1,0 +1,37 @@
+body.light {
+    transition: 0.5s ease;
+    background-color: white;
+    color: black;
+    #back {
+        background-color: rgb(0, 0, 200);
+        transition: 0.5s ease;
+    }
+}
+
+body.dark {
+    transition: 0.5s ease;
+    background-color: black;
+    color: white;
+    #back {
+        background-color: rgb(0, 0, 200);
+        transition: 0.5s ease;
+    }
+}
+
+body.blue {
+    transition: 0.5s ease;
+    background-color: rgb(0, 0, 200);
+    color: black;
+    #back {
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s ease;
+    }
+    #loginButton, #createAccountButton, #settingsButton {
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s ease;
+    }
+    #title {
+        color: white;
+        transition: 0.5s ease;
+    }
+}
